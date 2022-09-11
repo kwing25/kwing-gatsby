@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../styles/global.css";
+import "../styles/index.scss";
 
 import NavBar from "../components/navbar/navbar";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";

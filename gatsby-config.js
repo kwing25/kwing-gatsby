@@ -27,6 +27,7 @@ module.exports = {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-postcss",
+    "gatsby-plugin-sass",
     "gatsby-plugin-styled-components",
   ],
 };
