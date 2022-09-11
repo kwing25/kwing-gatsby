@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../styles/App.css";
+import "../styles/global.css";
 
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 
