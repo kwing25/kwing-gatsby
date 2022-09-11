@@ -41,11 +41,40 @@ body {
     color: var(--color-primary);
 }
 
-
 body.dark {
     -webkit-font-smoothing: antialiased;
     --bg: var(--color-primary);
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     color: var(--color-white);
+}
+
+// Home
+
+#index-page {
+    padding: 20px;
+}
+
+#line-1 {
+    font-size: 3.2vh;
+
+    #hello:hover::after {
+        content: attr(data-tooltip);
+    }
+}
+
+#name-home {
+    font-size: 9vh;
+    color: var(--color-secondary);
+    font-weight: bolder;
+}
+
+#title-1,
+#title-2 {
+    font-size: 4.3vh;
+}
+
+#lead {
+    font-size: 2vh;
+    font-family: 'Beth Ellen', cursive;
 }
