@@ -18,8 +18,15 @@ module.exports = {
         overlayDrafts: !isProd,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     "gatsby-plugin-image",
-    'gatsby-plugin-postcss', 
-    "gatsby-plugin-styled-components"
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-styled-components",
   ],
 };
