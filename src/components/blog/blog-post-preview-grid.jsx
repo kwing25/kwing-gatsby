@@ -1,30 +1,21 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
 
-const BlogPostPreviewGrid = () => {
-    const data = useStaticQuery(graphql`
-    query {
-      allSanityBlog {
-        edges {
-          node {
-            title
-            slug {
-              current
-            }
-          }
-        }
-      }
-    }
-  `)
+import BlogPostPreview from "./blog-post-preview";
+
+function BlogPostPreviewGrid(props) {
     return (
+
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-            {data.allSanityBlog.edges.map(({ node }) => (
-                <div key={node.slug.current} className="bg-slate-400 px-10">
-                    <h2 className="text-2xl">{node.title}</h2>
-                </div>
-            ))}
+            {props.nodes &&
+                props.nodes.map((node) => (
+                    <div key={node.id} className="overflow-hidden rounded-2xl h-full text-center">
+                        <BlogPostPreview {...node} />
+                    </div>
+                ))}
         </div>
-    )
+
+    );
 }
 
-export default BlogPostPreviewGrid
+
+export default BlogPostPreviewGrid;
