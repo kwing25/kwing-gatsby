@@ -1,16 +1,16 @@
 import * as React from "react";
+import "../styles/App.css";
 
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-
+import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <h1 className="text-purple-500">IndexPage</h1>
+
+      <div className="container mx-auto">
+        <BlogPostPreviewGrid />
+      </div>
     </main>
   );
 };
