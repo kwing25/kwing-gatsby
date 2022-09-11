@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import BlockContent from "../components/block-content";
-
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -128,7 +126,6 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <BlockContent />
       <h1 style={headingStyles}>
         Congratulations
         <br />
