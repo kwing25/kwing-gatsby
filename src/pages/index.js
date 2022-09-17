@@ -62,10 +62,10 @@ const IndexPage = (props) => {
     : [];
 
   return (
-    <main id="index-page">
+    <div id="index-page">
       <NavBar />
 
-      <div className="flex items-center justify-center h-screen">
+      <div className="flex items-center justify-center h-screen px-10">
         <div className="px-8 mt-8 md:mt-1 md:px-10">
           <div className="main-content-home">
             <h3 id="line-1" className="">
@@ -186,7 +186,7 @@ const IndexPage = (props) => {
           <BlogPostPreviewGrid title="Latest blogs" nodes={blogNodes} />
         )}
       </div>
-    </main>
+    </div>
   );
 };
 

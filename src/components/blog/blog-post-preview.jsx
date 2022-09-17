@@ -18,7 +18,7 @@ function BlogPostPreview(props) {
                 </div>
 
                 <div className="pt-1 pb-4">
-                    <p className="text-sm tracking-widest text-white">
+                    <div className="text-sm tracking-widest text-white">
                         {props.categories && props.categories.length > 0 && (
                             <div className="inline-flex">
                                 {props.categories.map(category => (
@@ -31,10 +31,10 @@ function BlogPostPreview(props) {
                                 ))}
                             </div>
                         )}
-                    </p>
+                    </div>
                 </div>
 
-    
+
             </div>
 
         </Link>

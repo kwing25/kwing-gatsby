@@ -53,13 +53,9 @@ body {
 //     color: var(--color-white);
 // }
 
-// Home
+// Index page
 
-#index-page {
-    padding: 20px;
-}
-
-#line-1 {
+h3#line-1 {
     font-size: 3.2vh;
 
     #hello:hover::after {
@@ -67,18 +63,18 @@ body {
     }
 }
 
-#name-home {
+h1#name-home {
     font-size: 9vh;
     color: var(--color-secondary);
     font-weight: bolder;
 }
 
-#title-1,
-#title-2 {
+h2#title-1,
+h2#title-2 {
     font-size: 4.3vh;
 }
 
-#lead {
+h3#lead {
     font-size: 2vh;
     font-family: 'Beth Ellen', cursive;
 }
