@@ -116,6 +116,9 @@ function NavBar() {
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item hover:text-[#ff006e] transform hover:scale-125 duration-300 ease-in-out">
+                                <a className="nav-link" href="/about">About</a>
+                            </li>
+                            <li className="nav-item hover:text-[#ff006e] transform hover:scale-125 duration-300 ease-in-out">
                                 <a className="nav-link" href="/blog">Blog</a>
                             </li>
 

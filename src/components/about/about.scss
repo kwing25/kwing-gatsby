@@ -1,0 +1,37 @@
+.about-head {
+    text-align: center;
+    width: 100vw;
+    padding: 50px;
+}
+
+#about-intro {
+    color: white;
+    font-size: 25px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.resume-link img {
+    width: 100px;
+    height: 110px;
+
+    &:hover {
+        filter: saturate(2);
+    }
+}
+
+@media (max-width:768px) {
+    .about-head {
+        padding-top: 40px;
+    }
+
+    #about-intro {
+        font-size: 20px;
+    }
+
+    .main-section.row.is-inview {
+        padding-top: 10px;
+    }
+}

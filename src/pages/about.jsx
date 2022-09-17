@@ -1,6 +1,8 @@
 import React from "react";
 import GraphQLErrorList from "../components/graphql-error-list";
+
 import NavBar from "../components/navbar/navbar";
+import Skills from "../components/skills/skills";
 
 const AboutPage = props => {
     const { errors } = props;
@@ -24,7 +26,13 @@ const AboutPage = props => {
                     <h1 className="bold">About Me</h1>
                 </header>
 
+                <div className="px-20" id="about-intro">
+                    <Skills />
 
+                    <div className="resume-link">
+                        <a href="https://drive.google.com/file/d/125BPaRERRakn6SFBjMtzKYw8jtenRsyh/view?usp=sharing" rel="noreferrer" target="_blank"><img src="https://raw.githubusercontent.com/kwing25/Portfolio/821b5f26f82ff38814f0cfaaf07b77b488229236/src/assets/resumeicon.svg" alt="resume-icon" /></a>
+                    </div>
+                </div>
             </div>
         </div>
     );

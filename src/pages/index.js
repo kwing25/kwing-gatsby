@@ -11,6 +11,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
+import AboutSummary from "../components/about/about-summary";
 
 export const query = graphql`
   query IndexPageQuery {
@@ -173,6 +174,10 @@ const IndexPage = (props) => {
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="container mx-auto py-20 px-5">
+        <AboutSummary />
       </div>
 
       <div className="container mx-auto pb-20">
