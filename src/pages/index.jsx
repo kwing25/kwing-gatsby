@@ -10,6 +10,7 @@ import {
 import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import AboutSummary from "../components/about/about-summary";
 
@@ -182,7 +183,7 @@ const IndexPage = (props) => {
 
       <div className="container mx-auto py-20 px-5">
 
-        <article className="p-1 shadow-xl rounded-2xl bg-gradient-to-r from-red-400 to-red-600">
+        {/* <article className="p-1 shadow-xl rounded-2xl bg-gradient-to-r from-red-400 to-red-600">
           <a href="/" className="flex flex-col justify-end h-full p-6 bg-gray-900 sm:p-8 rounded-xl hover:bg-opacity-90">
             <div className="mt-16">
               <p className="text-xs font-medium text-gray-500"><code>Sass</code></p>
@@ -207,16 +208,18 @@ const IndexPage = (props) => {
               </div>
             </div>
           </a>
-        </article>
+        </article> */}
 
       </div>
 
-      <div className="container mx-auto pb-20">
+      <div className="container mx-auto py-20 px-5">
         {" "}
         {blogNodes && (
           <BlogPostPreviewGrid title="Latest blogs" nodes={blogNodes} />
         )}
       </div>
+
+      <Footer />
     </div>
   );
 };

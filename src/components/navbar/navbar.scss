@@ -1,38 +1,38 @@
-nav#full-nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding-right: 15px;
-}
+// nav#full-nav {
+//     display: flex;
+//     justify-content: flex-end;
+//     width: 100%;
+//     padding-right: 15px;
+// }
 
-#full-width-nav {
-    padding-right: 20px;
-    font-size: 2vh;
-    font-family: 'Staatliches', cursive;
-}
+// #full-width-nav {
+//     padding-right: 20px;
+//     font-size: 2vh;
+//     font-family: 'Staatliches', cursive;
+// }
 
-#responsive-nav {
-    display: none;
+// #responsive-nav {
+//     display: none;
 
-    li a {
-        font-size: 7vh;
-        font-family: "Staatliches", cursive;
-    }
+//     li a {
+//         font-size: 7vh;
+//         font-family: "Staatliches", cursive;
+//     }
 
-    a:hover {
-        color: rgba(8, 7, 5, 1);
-    }
+//     a:hover {
+//         color: rgba(8, 7, 5, 1);
+//     }
 
-}
+// }
 
-@media (max-width: 991px) {
+// @media (max-width: 991px) {
 
-    #full-width-nav {
-        display: none;
-    }
+//     #full-width-nav {
+//         display: none;
+//     }
 
-    #responsive-nav {
-        display: flex;
-    }
+//     #responsive-nav {
+//         display: flex;
+//     }
 
-}
+// }
