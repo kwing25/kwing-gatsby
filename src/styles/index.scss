@@ -39,41 +39,12 @@ body.light-mode {
     background-color: #fff;
     color: #333;
     transition: background-color 0.3s ease;
-  }
-  
-  body.dark-mode {
+}
+
+body.dark-mode {
     background-color: #10171d;
     color: #dfdfdf;
-  
-    .navbar {
-      background-color: #1b2938;
-    }
-  
-    .dark-mode-toggle > button {
-      color: #999;
-      &:last-child {
-        color: lightblue;
-      }
-    }
-  }
-  
-// body {
-//     --bg: var(--color-white);
-//     --textNormal: #222;
-//     --textTitle: #222;
-//     background-color: var(--bg);
-//     font-family: var(--font-primary);
-//     // background: var(--color-primary);
-//     color: var(--color-primary);
-// }
-
-// body.dark {
-//     -webkit-font-smoothing: antialiased;
-//     --bg: var(--color-primary);
-//     --textNormal: rgba(255, 255, 255, 0.88);
-//     --textTitle: white;
-//     color: var(--color-white);
-// }
+}
 
 // Index page
 
