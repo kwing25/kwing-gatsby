@@ -14,6 +14,7 @@ import Footer from "../components/footer/footer";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import AboutSummary from "../components/about/about-summary";
 
+
 export const query = graphql`
   query IndexPageQuery {
     blogs: allSanityBlog(
@@ -65,6 +66,7 @@ const IndexPage = (props) => {
   return (
     <div id="index-page">
       <NavBar />
+
 
       <div className="flex items-center justify-center h-screen px-10">
         <div className="px-8 mt-8 md:mt-1 md:px-10">
