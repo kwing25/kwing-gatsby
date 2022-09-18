@@ -25,6 +25,15 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-use-dark-mode',
+      options: {
+        classNameDark: 'dark-mode',
+        classNameLight: 'light-mode',
+        storageKey: 'darkMode',
+        minify: true,
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-postcss",
     "gatsby-plugin-sass",

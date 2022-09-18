@@ -13,7 +13,7 @@ import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import AboutSummary from "../components/about/about-summary";
-
+import DarkModeToggle from "../components/theme/DarkModeToggle";
 
 export const query = graphql`
   query IndexPageQuery {
@@ -67,7 +67,8 @@ const IndexPage = (props) => {
     <div id="index-page">
       <NavBar />
 
-
+      <DarkModeToggle />
+      
       <div className="flex items-center justify-center h-screen px-10">
         <div className="px-8 mt-8 md:mt-1 md:px-10">
           <div className="main-content-home">
