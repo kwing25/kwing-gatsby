@@ -11,9 +11,11 @@ import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
-import AboutSummary from "../components/about/about-summary";
 import DarkModeToggle from "../components/theme/DarkModeToggle";
+import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
+import BlogCardExternal from "../components/blog/blog-card-external";
+import AboutSummary from "../components/about/about-summary";
+
 
 export const query = graphql`
   query IndexPageQuery {
@@ -68,7 +70,7 @@ const IndexPage = (props) => {
       <NavBar />
 
       <DarkModeToggle />
-      
+
       <div className="flex items-center justify-center h-screen px-10">
         <div className="px-8 mt-8 md:mt-1 md:px-10">
           <div className="main-content-home">
@@ -220,6 +222,8 @@ const IndexPage = (props) => {
         {blogNodes && (
           <BlogPostPreviewGrid title="Latest blogs" nodes={blogNodes} />
         )}
+
+        <BlogCardExternal />
       </div>
 
       <Footer />
