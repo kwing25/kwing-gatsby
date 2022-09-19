@@ -4,8 +4,7 @@ import "./about.scss";
 export default function AboutDetailed() {
 
     return (
-        <div id="about">
-
+        <div id="about" className="inline-flex">
 
             <div className="flex items-center justify-center mb-20">
                 <h1 className="text-4xl font-bold text-center">Objecive:</h1>

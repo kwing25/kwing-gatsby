@@ -20,11 +20,11 @@ export default function BlogCardExternal() {
             <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
 
                 {posts.map((post) => (
-                    <a href={post.url} className="block">
+                    <a href={post.url} className="block bg-[#ff006e]/50 shadow-xl rounded-xl">
                         <img src={post.cover_image} alt="post-cover__image" className="object-cover w-full h-56 shadow-xl rounded-xl" />
                         <div className="p-4">
                             {posts.length > 0 && (
-                                <ul className="flex justify-start">
+                                <ul className="flex justify-start gap-2">
                                     {post.tag_list.map((tag) => (
                                         <li key={tag} className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800"> {tag} </li>
                                     ))}
