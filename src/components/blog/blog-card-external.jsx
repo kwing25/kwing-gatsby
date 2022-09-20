@@ -24,9 +24,9 @@ export default function BlogCardExternal() {
                         <img src={post.cover_image} alt="post-cover__image" className="object-cover w-full h-56 shadow-xl rounded-xl" />
                         <div className="p-4">
                             {posts.length > 0 && (
-                                <ul className="flex justify-start gap-2">
+                                <ul className="flex justify-start gap-1">
                                     {post.tag_list.map((tag) => (
-                                        <li key={tag} className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800"> {tag} </li>
+                                        <li key={tag} className="inline-flex overflow-hidden rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800"> {tag} </li>
                                     ))}
                                 </ul>
                             )}

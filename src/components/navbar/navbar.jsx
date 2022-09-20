@@ -4,6 +4,8 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import "./navbar.scss";
 
+import DarkModeToggle from "../theme/DarkModeToggle";
+
 const COLORS = {
     primaryDark: "rgba(8, 7, 5, 1)",
     primaryLight: "rgba(255, 1, 110, 1)",
@@ -104,6 +106,8 @@ function NavBar() {
         <>
 
             <nav id="full-nav" className="navbar ">
+
+                <DarkModeToggle />
 
                 <div id="full-width-nav">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

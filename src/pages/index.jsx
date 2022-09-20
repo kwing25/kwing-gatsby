@@ -69,10 +69,10 @@ const IndexPage = (props) => {
     <div id="index-page">
       <NavBar />
 
-      <DarkModeToggle />
+      {/* <DarkModeToggle /> */}
 
       <div className="flex items-center justify-center h-screen px-10">
-        <div className="px-8 mt-8 md:mt-1 md:px-10">
+        <div className="px-8 py-5 mt-8 md:mt-1 md:px-10">
           <div className="main-content-home">
             <h3 id="line-1" className="">
               <span id="hello" data-tooltip="👋">
@@ -82,10 +82,11 @@ const IndexPage = (props) => {
             </h3>
             <h1 id="name-home">Kendra</h1>
             <h2 id="title-1" className="">
-              I'm a Full Stack Web Developer &
+              I'm a Full Stack Web Developer 
+              <span className="text-sm px-2">&</span>
             </h2>
             <h2 id="title-2" className="">
-              a Developer Advocate
+              Developer Advocate
             </h2>
           </div>
           <div className="mt-2 pt-6">
