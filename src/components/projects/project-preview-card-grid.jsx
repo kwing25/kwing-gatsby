@@ -7,7 +7,7 @@ export default function ProjectPreviewCardGrid(props) {
             <h1>Project Cards</h1>
 
             {/* Snippet */}
-            <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 min-h-screen">
+            <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 max-h-screen rounded-lg shadow-lg">
                 <div className="max-w-6xl mx-auto p-4 sm:px-6 h-full">
                     {/* Blog post */}
                     <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">

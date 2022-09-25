@@ -50,7 +50,7 @@ body.dark-mode {
 // Index page
 
 h3#line-1 {
-    font-size: 3.2vh;
+    font-size: 3vh;
 
     #hello:hover::after {
         content: attr(data-tooltip);
@@ -58,7 +58,7 @@ h3#line-1 {
 }
 
 h1#name-home {
-    font-size: 9vh;
+    font-size: 8vh;
     color: var(--color-secondary);
     font-weight: bolder;
 }
@@ -71,4 +71,12 @@ h2#title-2 {
 h3#lead {
     font-size: 2vh;
     font-family: 'Beth Ellen', cursive;
+}
+
+@media (max-width: 768px) {
+
+    h2#title-1,
+    h2#title-2 {
+        font-size: 3.3vh;
+    }
 }
