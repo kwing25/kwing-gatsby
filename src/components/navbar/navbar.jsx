@@ -129,7 +129,7 @@ function NavBar() {
                                 <a className="nav-link" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item hover:text-[#ff006e] transform hover:scale-125 duration-300 ease-in-out">
-                                <a className="nav-link" href="/">Contact</a>
+                                <a className="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -159,7 +159,7 @@ function NavBar() {
                                 <Link to="#projects">Projects</Link>
                             </li>
                             <li className="text-pink-100 no-underline hover:text-stone-900 transform hover:scale-125 duration-300 ease-in-out"  >
-                                <Link to="/">Contact</Link>
+                                <Link to="#contact">Contact</Link>
                             </li>
 
 

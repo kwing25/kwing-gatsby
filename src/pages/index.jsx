@@ -11,11 +11,12 @@ import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import DarkModeToggle from "../components/theme/DarkModeToggle";
+
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import BlogCardExternal from "../components/blog/blog-card-external";
 import AboutSummary from "../components/about/about-summary";
 import ProjectPreviewCardGrid from "../components/projects/project-preview-card-grid";
+import ContactComponent from "../components/contact/contact";
 
 export const query = graphql`
   query IndexPageQuery {
@@ -68,8 +69,6 @@ const IndexPage = (props) => {
   return (
     <div id="index-page">
       <NavBar />
-
-      {/* <DarkModeToggle /> */}
 
       <div className="flex items-center justify-center h-screen px-10">
         <div className="px-8 py-5 mt-8 md:mt-1 md:px-10">
@@ -190,8 +189,8 @@ const IndexPage = (props) => {
       <div className="container mx-auto py-20 px-5 h-50">
 
         <div className="flex flex-wrap text-center justify-center w-full">
-          <div className="flex flex-col text-center w-full mb-20 pb-12">
-            <h1 data-scroll data-scroll-speed={1} className="text-4xl" id="skills-intro">I use tech...</h1>
+          <div className="flex flex-col text-center w-full mb-10 pb-12">
+            <h1 className="text-4xl text-[#ff006e]" id="skills-intro">I use tech...</h1>
           </div>
           <div className="px-4 py-6 rounded-lg ">
             <svg className="fill-current h-12 mr-0 hover:text-[#60dafb] transform hover:scale-125 duration-300 ease-in-out" id="react-logo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -259,7 +258,7 @@ const IndexPage = (props) => {
             </svg>
           </div>
           <div className="flex flex-col text-center w-full mt-20">
-            <h1 data-scroll data-scroll-speed={1} className="text-4xl" id="skills-sub">... to build awesome apps!</h1>
+            <h1 className="text-4xl text-[#ff006e]" id="skills-sub">... to build awesome apps!</h1>
           </div>
 
         </div>
@@ -277,6 +276,10 @@ const IndexPage = (props) => {
 
       <div className="container mx-auto py-20 px-5">
         <ProjectPreviewCardGrid />
+      </div>
+
+      <div className="container mx-auto py-20 px-5">
+        <ContactComponent />
       </div>
 
       <Footer />
