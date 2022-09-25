@@ -15,7 +15,7 @@ import DarkModeToggle from "../components/theme/DarkModeToggle";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import BlogCardExternal from "../components/blog/blog-card-external";
 import AboutSummary from "../components/about/about-summary";
-
+import ProjectPreviewCardGrid from "../components/projects/project-preview-card-grid";
 
 export const query = graphql`
   query IndexPageQuery {
@@ -82,7 +82,7 @@ const IndexPage = (props) => {
             </h3>
             <h1 id="name-home">Kendra</h1>
             <h2 id="title-1" className="">
-              I'm a Full Stack Web Developer 
+              I'm a Full Stack Web Developer
               <span className="text-sm px-2">&</span>
             </h2>
             <h2 id="title-2" className="">
@@ -273,6 +273,10 @@ const IndexPage = (props) => {
         )} */}
 
         <BlogCardExternal />
+      </div>
+
+      <div className="container mx-auto py-20 px-5">
+        <ProjectPreviewCardGrid />
       </div>
 
       <Footer />
