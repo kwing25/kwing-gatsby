@@ -42,13 +42,11 @@ body.light-mode {
 }
 
 body.dark-mode {
-    // background-color: #10171d;
     background-color: var(--color-primary);
     color: #dfdfdf;
 }
 
 // Index page
-
 h3#line-1 {
     font-size: 3vh;
 
@@ -66,6 +64,7 @@ h1#name-home {
 h2#title-1,
 h2#title-2 {
     font-size: 4.3vh;
+    
 }
 
 h3#lead {
@@ -77,6 +76,6 @@ h3#lead {
 
     h2#title-1,
     h2#title-2 {
-        font-size: 3.3vh;
+        font-size: 3.2vh;
     }
 }
