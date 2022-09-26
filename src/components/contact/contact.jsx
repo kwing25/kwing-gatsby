@@ -16,38 +16,8 @@ export default function ContactComponent() {
                         </div>
                         <div className="lg:w-1/2 md:w-2/3 mx-auto">
                             <div className="flex flex-wrap -m-2">
-                                <div className="p-2 w-1/2">
-                                    <div className="relative">
-                                        <label htmlFor="name" className="leading-7 text-sm text-gray-500">Name</label>
-                                        <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                    </div>
-                                </div>
-                                <div className="p-2 w-1/2">
-                                    <div className="relative">
-                                        <label htmlFor="email" className="leading-7 text-sm text-gray-500">Email</label>
-                                        <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                    </div>
-                                </div>
-                                <div className="p-2 w-full">
-                                    <div className="relative">
-                                        <label htmlFor="message" className="leading-7 text-sm text-gray-500">Message</label>
-                                        <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" defaultValue={""} />
-                                    </div>
-                                </div>
-                                <div className="p-2 w-full">
-                                    {/* <button className="flex mx-auto text-[#fef8fc] bg-[#ff006e] border-0 py-2 px-8 focus:outline-none hover:bg-[#fef8fc] hover:text-[#ff006e] rounded text-lg">Send</button> */}
-                                    <button>
-                                        <div className="svg-wrapper-1">
-                                            <div className="svg-wrapper">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24}>
-                                                    <path fill="none" d="M0 0h24v24H0z" />
-                                                    <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" />
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <span>Send</span>
-                                    </button>
-                                </div>
+                        
+            
                                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                                     <p className="leading-normal my-5 text-[#ff006e] "><a className="hover:text-[#fef8fc]" href="mailto:kendrawingpro@icloud.com">kendrawingpro@icloud.com</a>
                                     </p>
@@ -77,35 +47,9 @@ export default function ContactComponent() {
                                             </svg>
                                         </a>
 
-                                        <a className="inline-block text-[#ff006e] hover:text-[#ff006e] hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://www.twitch.tv/experiencelifeincode" rel="noreferrer" target="_blank">
-                                            <svg className="fill-current h-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"></path>
-                                            </svg>
-                                        </a>
-
-                                        <a className="inline-block text-[#ff006e] hover:text-[#ff006e] hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://discord.com/invite/vUudS7QPXn" rel="noreferrer" target="_blank">
-                                            <svg className="fill-current h-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"></path>
-                                            </svg>
-                                        </a>
-
-                                        <a className="inline-block text-[#ff006e] hover:text-[#ff006e] hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://www.youtube.com/channel/UCyGYbospRfcAThEJoDve05A" rel="noreferrer" target="_blank">
-                                            <svg className="fill-current h-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
-                                            </svg>
-                                        </a>
-
-
                                         <a className="inline-block text-[#ff006e] hover:text-[#ff006e] hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://codesandbox.io/u/kwing25" rel="noreferrer" target="_blank">
                                             <svg className="fill-current h-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M1.5 6l10.455-6L22.41 6l.09 11.95L11.955 24 1.5 18zm2.088 2.481v4.757l3.345 1.86v3.516l3.972 2.296v-8.272zm16.739 0l-7.317 4.157v8.272l3.972-2.296V15.1l3.345-1.861V8.48zM4.634 6.601l7.303 4.144 7.32-4.18-3.871-2.197-3.41 1.945-3.43-1.968L4.633 6.6z"></path>
-                                            </svg>
-                                        </a>
-
-
-                                        <a className="inline-block text-[#ff006e] hover:text-[#ff006e] hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://twitter.com/kennyk1995" rel="noreferrer" target="_blank">
-                                            <svg className="fill-current h-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
                                             </svg>
                                         </a>
 
