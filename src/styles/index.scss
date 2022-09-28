@@ -46,6 +46,12 @@ body.dark-mode {
     color: #dfdfdf;
 }
 
+h1#title-page {
+    font-family: var(--font-heading);
+    font-size: 3.5vh;
+    color: var(--color-secondary);
+    padding-bottom: 20px;
+}
 // Index page
 h3#line-1 {
     font-size: 3vh;

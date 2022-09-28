@@ -4,10 +4,10 @@ import "./about.scss";
 export default function AboutDetailed() {
 
     return (
-        <div id="about" className="inline-flex">
+        <div id="about" className="flex flex-wrap">
 
-            <div className="flex items-center justify-center mb-20">
-                <h1 className="text-4xl font-bold text-center">Objecive:</h1>
+            <div className="flex flex-col">
+                {/* <h1 className="text-4xl font-bold text-center">Objecive:</h1> */}
                 <div className="p-10">
                     <div className="px-4 py-6">
                         <h1 className="text-lg md:text-2xl">I'm a Full Stack Web Developer & Advocate with a passion for development and advocating for purposeful technologies.</h1>
