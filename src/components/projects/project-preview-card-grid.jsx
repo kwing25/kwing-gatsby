@@ -9,7 +9,7 @@ export default function ProjectPreviewCardGrid(props) {
 
             <div className="container">
                 <section className="p-4 lg:p-8 bg-[#ff006e]/50 rounded-md">
-                    <div className="container mx-auto ">
+                    <div className="container justify-around">
                         <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
                             {/* Image */}
                             <div className="w-full lg:w-2/3 transform transition-transform duration-500 ease-in-out hover:scale-110 ">

@@ -63,7 +63,7 @@ const BlogPage = props => {
         <NavBar />
       </div>
 
-      <div id="blog-page">
+      <div id="blog-page" className="h-screen">
         <header className="text-center">
           <h1 id="title-page">Blog</h1>
         </header>
