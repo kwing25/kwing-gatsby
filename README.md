@@ -1,3 +1,8 @@
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kwing25/kwing-gatsby?style=flat-square)
+[![wakatime](https://wakatime.com/badge/user/2757f0f2-c344-4d0a-bfc2-16ce09985dac/project/6bc7474a-af4e-4a7f-a3bd-10f5504ab995.svg)](https://wakatime.com/badge/user/2757f0f2-c344-4d0a-bfc2-16ce09985dac/project/6bc7474a-af4e-4a7f-a3bd-10f5504ab995)
+
+---
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
