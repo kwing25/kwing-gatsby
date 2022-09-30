@@ -6,8 +6,7 @@ export default function AboutDetailed() {
     return (
         <div id="about" className="flex flex-wrap">
 
-            <div className="flex flex-col">
-                {/* <h1 className="text-4xl font-bold text-center">Objecive:</h1> */}
+            <div className="flex flex-col items-center justify-center mb-20">
                 <div className="p-10">
                     <div className="px-4 py-6">
                         <h1 className="text-lg md:text-2xl">I'm a Full Stack Web Developer & Advocate with a passion for development and advocating for purposeful technologies.</h1>
@@ -27,7 +26,7 @@ export default function AboutDetailed() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center mb-20">
+            <div className="flex flex-col items-center justify-center mb-20">
                 <h1 className="text-4xl font-bold text-center">Personal/Life outside of Coding:</h1>
                 <div className="p-10">
                     <div className="px-4 py-6">
@@ -40,7 +39,7 @@ export default function AboutDetailed() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center mb-20">
+            <div className="flex flex-col items-center justify-center mb-20">
                 <h1 className="text-4xl font-bold text-center">My Goals...</h1>
                 <div className="p-10">
                     <div className="px-4 py-6">
@@ -51,25 +50,6 @@ export default function AboutDetailed() {
                     </div>
                 </div>
             </div>
-
-            <div className="flex items-center justify-center mb-20">
-                <h1 className="text-4xl font-bold text-center">Good Sites & Developers that inspire me...</h1>
-                <div className="p-10">
-                    <div className="px-4 py-6">
-                        <ul className="text-lg md:text-2xl">
-                            <li>John Doe</li>
-                            <li>example.com</li>
-                        </ul>
-                    </div>
-                    <div className="px-4 py-6">
-                        <ul className="text-lg md:text-2xl">
-                            <li>Jane Doe</li>
-                            <li>doeweb.com</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
 
         </div>
     );
