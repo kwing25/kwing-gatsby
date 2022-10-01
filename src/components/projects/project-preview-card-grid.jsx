@@ -1,13 +1,17 @@
 import React from "react";
 import "./projects.scss";
 
+import ProjectCard from "./project-card";
+
 export default function ProjectPreviewCardGrid(props) {
 
     return (
         <div id="projects">
             <h1 id="projects-title">Some of my Projects...</h1>
 
-            <div className="container">
+            <ProjectCard />
+
+            <div className="container mt-20">
                 <section className="p-4 lg:p-8 bg-[#ff006e]/50 rounded-md">
                     <div className="container justify-around">
                         <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
@@ -152,6 +156,12 @@ export default function ProjectPreviewCardGrid(props) {
 
 
 
+            <a className="inline-block rounded-full border border-indigo-600 bg-indigo-600 p-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+                <span className="sr-only"> Download </span>
+                <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </a>
 
 
             {/* <div className="flex items-center justify-center px-5 md:px-2 ">
