@@ -277,6 +277,13 @@ const IndexPage = (props) => {
       <div className="container mx-auto py-20 px-5">
         <h1 id="projects-title">Some of my Projects...</h1>
         <ProjectPreviewCardGrid />
+
+        <button className="flex mx-auto mt-20 text-white bg-[#ff006e] border-0 py-2 px-8 focus:outline-none hover:bg-[#ff006e]/80 transform hover:scale-125 duration-300 ease-in-out rounded-md text-lg">
+          <a href="/projects" className="flex">See more of my projects
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></a>
+        </button>
       </div>
 
       <div className="container mx-auto py-20 px-5">

@@ -5,6 +5,7 @@ import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
 import ProjectPreviewCardGrid from "../components/projects/project-preview-card-grid";
+import ProjectSandboxes from "../components/projects/project-sandboxes";
 
 const ProjectsPage = props => {
 
@@ -32,9 +33,15 @@ const ProjectsPage = props => {
                 <div className="container mx-auto py-4 px-5">
                     <ProjectPreviewCardGrid />
                 </div>
+
+                <div className="p-10">
+                    <ProjectSandboxes />
+                </div>
+
+                <Footer />
             </div>
 
-            <Footer />
+   
         </div>
     );
 };
