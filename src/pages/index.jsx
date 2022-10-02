@@ -12,7 +12,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
-import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
+// import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import BlogCardExternal from "../components/blog/blog-card-external";
 import AboutSummary from "../components/about/about-summary";
 import ProjectPreviewCardGrid from "../components/projects/project-preview-card-grid";

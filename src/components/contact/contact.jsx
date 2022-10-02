@@ -35,19 +35,19 @@ export default function ContactComponent() {
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="flex py-4">
                                 <div className="w-full">
-                                    <label htmlFor="name" className="text-md text-gray-300">Name</label>
+                                    <label htmlFor="name" className="text-md">Name</label>
                                     <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="flex py-4">
                                 <div className="w-full">
-                                    <label htmlFor="email" className="text-md text-gray-300">Email</label>
+                                    <label htmlFor="email" className="text-md">Email</label>
                                     <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="flex py-4">
                                 <div className="w-full">
-                                    <label htmlFor="message" className="text-md text-gray-300">Message</label>
+                                    <label htmlFor="message" className="text-md">Message</label>
                                     <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" defaultValue={""} />
                                 </div>
                             </div>

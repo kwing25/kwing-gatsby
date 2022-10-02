@@ -32,7 +32,7 @@ export default function BlogCardExternal() {
                             )}
 
                             <h4 className="pt-2 pb-3 text-xl">{post.title}</h4>
-                            <p className="mt-2 text-gray-500">
+                            <p className="mt-2 text-gray-200">
                                 {post.description}
                             </p>
                             {/* <p>{post.published_at}</p> */}

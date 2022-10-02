@@ -16,3 +16,9 @@ h2#tech-used-pro-card {
         padding-top: 10px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    #about-point {
+        border-bottom: #dde6f1 1px solid;
+    }
+}

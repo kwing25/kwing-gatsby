@@ -11,7 +11,6 @@ export default function ProjectPreviewCardGrid(props) {
 
             <ProjectCard />
 
- 
 
             {/* <div className="flex items-center justify-center px-5 md:px-2 ">
                     <div className="col">
