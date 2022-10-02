@@ -4,7 +4,7 @@ import "./about.scss";
 export default function AboutDetailed() {
 
     return (
-        <div id="about" className="flex flex-wrap">
+        <div id="about" className="flex flex-wrap px-20">
 
             <div className="flex flex-col items-center justify-center mb-20">
                 <div className="p-10">
@@ -22,31 +22,6 @@ export default function AboutDetailed() {
                     </div>
                     <div className="px-4 py-6">
                         <h1 className="text-lg md:text-2xl">I'm excited to be a part of & use my skills in the next phase of the web. ✨</h1>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-col items-center justify-center mb-20">
-                <h1 className="text-4xl font-bold text-center">Personal/Life outside of Coding:</h1>
-                <div className="p-10">
-                    <div className="px-4 py-6">
-                        <h1 className="text-lg md:text-2xl">When I'm not coding I work in my hometown (Aurora, CO) History Museum.</h1>
-                    </div>
-
-                    <div className="px-4 py-6">
-                        <h1 className="text-lg md:text-2xl">I love Comic Books & Various Pop Culture 🤓</h1>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-col items-center justify-center mb-20">
-                <h1 className="text-4xl font-bold text-center">My Goals...</h1>
-                <div className="p-10">
-                    <div className="px-4 py-6">
-                        <ul className="text-lg md:text-2xl">
-                            <li>Develop more!</li>
-                            <li>Write more!</li>
-                        </ul>
                     </div>
                 </div>
             </div>

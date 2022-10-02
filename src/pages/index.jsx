@@ -2,11 +2,11 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import "../styles/global.css";
 import "../styles/index.scss";
-import {
-  mapEdgesToNodes,
-  filterOutDocsWithoutSlugs,
-  filterOutDocsPublishedInTheFuture,
-} from "../lib/helpers";
+// import {
+//   mapEdgesToNodes,
+//   filterOutDocsWithoutSlugs,
+//   filterOutDocsPublishedInTheFuture,
+// } from "../lib/helpers";
 import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
@@ -60,11 +60,11 @@ const IndexPage = (props) => {
     );
   }
 
-  const blogNodes = (data || {}).blogs
-    ? mapEdgesToNodes(data.blogs)
-      .filter(filterOutDocsWithoutSlugs)
-      .filter(filterOutDocsPublishedInTheFuture)
-    : [];
+  // const blogNodes = (data || {}).blogs
+  //   ? mapEdgesToNodes(data.blogs)
+  //     .filter(filterOutDocsWithoutSlugs)
+  //     .filter(filterOutDocsPublishedInTheFuture)
+  //   : [];
 
   return (
     <div id="index-page">

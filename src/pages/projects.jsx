@@ -25,11 +25,11 @@ const ProjectsPage = props => {
             </div>
 
             <div id="projects-page" className="h-screen">
-                <header className="text-center">
+                <header className="text-center pt-10">
                     <h1 id="title-page">Projects</h1>
                 </header>
 
-                <div className="container mx-auto py-20 px-5">
+                <div className="container mx-auto py-4 px-5">
                     <ProjectPreviewCardGrid />
                 </div>
             </div>

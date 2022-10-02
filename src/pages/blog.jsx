@@ -1,12 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
 import GraphQLErrorList from "../components/graphql-error-list";
-import { mapEdgesToNodes, filterOutDocsWithoutSlugs } from "../lib/helpers";
+// import { mapEdgesToNodes, filterOutDocsWithoutSlugs } from "../lib/helpers";
 
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
-import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
+// import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 import BlogCardExternal from "../components/blog/blog-card-external";
 
 export const query = graphql`
@@ -53,8 +53,10 @@ const BlogPage = props => {
       </div>
     );
   }
-  const blogNodes =
-    data && data.blogs && mapEdgesToNodes(data.blogs).filter(filterOutDocsWithoutSlugs);
+
+  // const blogNodes =
+  //   data && data.blogs && mapEdgesToNodes(data.blogs).filter(filterOutDocsWithoutSlugs);
+
   return (
     <div>
 
@@ -64,11 +66,11 @@ const BlogPage = props => {
       </div>
 
       <div id="blog-page" className="h-screen">
-        <header className="text-center">
+        <header className="text-center pt-10">
           <h1 id="title-page">Blog</h1>
         </header>
 
-        <div className="p-10">
+        <div className="flex justify-center items-center">
           <BlogCardExternal />
 
           {/* {blogNodes && blogNodes.length > 0 && <BlogPostPreviewGrid nodes={blogNodes} />} */}

@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.scss";
 
-
 export default function ContactComponent() {
 
     const form = useRef();
@@ -96,7 +95,6 @@ export default function ContactComponent() {
                     </div>
                 </div>
             </div>
-
 
             </div>
         </div>
