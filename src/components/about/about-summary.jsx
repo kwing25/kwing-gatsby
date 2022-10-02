@@ -49,7 +49,6 @@ export default function AboutSummary() {
                             </svg>
                         </div>
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                            <h2 className="text-gray-400 text-lg title-font font-medium mb-2">The 400 Blows</h2>
                             <p className="leading-relaxed text-base">I love working & learning in the tech community. 🌎.</p>
                         </div>
                     </div>
