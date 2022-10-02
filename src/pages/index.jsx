@@ -275,6 +275,7 @@ const IndexPage = (props) => {
       </div>
 
       <div className="container mx-auto py-20 px-5">
+        <h1 id="projects-title">Some of my Projects...</h1>
         <ProjectPreviewCardGrid />
       </div>
 

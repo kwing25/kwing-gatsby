@@ -7,7 +7,7 @@ export default function ProjectPreviewCardGrid(props) {
 
     return (
         <div id="projects">
-            <h1 id="projects-title">Some of my Projects...</h1>
+
 
             <ProjectCard />
 
