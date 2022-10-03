@@ -154,7 +154,7 @@ const IndexPage = (props) => {
           <div className="flex justify-start space-between pt-5 ">
             <button className="relative inline-flex items-center justify-center p-0.5 m-3 md:p-0.5 md:m-2 text-sm md:text-base overflow-hidden rounded-lg group bg-gradient-to-br from-[#ff006e] to-[#700548] group-hover:from-[#700548] group-hover:to-[#ff006e] hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-[#ff006e] dark:focus:ring-pink-900">
               <span className="relative px-2 py-1 md:px-5 md:py-2.5 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/projects">
                   See My Work
                 </a>
               </span>
@@ -162,7 +162,7 @@ const IndexPage = (props) => {
 
             <button className="relative inline-flex items-center justify-center p-0.5 m-3 md:p-0.5 md:m-2 text-sm md:text-base overflow-hidden rounded-lg group bg-gradient-to-br to-[#ff006e] from-[#700548] group-hover:from-[#700548] group-hover:to-[#ff006e] hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-[#ff006e] dark:focus:ring-pink-900">
               <span className="relative px-2 py-1 md:px-5 md:py-2.5 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/contact">
                   Contact Me
                 </a>
               </span>
