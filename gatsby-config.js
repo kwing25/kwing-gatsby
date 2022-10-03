@@ -35,8 +35,9 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
+    "gatsby-plugin-netlify",
     "gatsby-plugin-postcss",
     "gatsby-plugin-sass",
-    "gatsby-plugin-styled-components",
+    "gatsby-plugin-styled-components"
   ],
 };
