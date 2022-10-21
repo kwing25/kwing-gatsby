@@ -3,7 +3,6 @@ import { format, formatDistance, differenceInDays } from "date-fns";
 import { buildImageObj } from "../../lib/helpers";
 import { imageUrlFor } from "../../lib/image-url";
 
-
 function BlogPost(props) {
     const {
         title,
@@ -11,7 +10,6 @@ function BlogPost(props) {
         categories,
         publishedAt
     } = props;
-
 
     return (
         <div id="blog-post" className="bg-gray-600 h-100 mt-2">

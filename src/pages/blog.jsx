@@ -5,6 +5,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import BlogCardExternal from "../components/blog/blog-card-external";
+import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 
 export const query = graphql`
   query BlogPageQuery {
@@ -34,7 +35,7 @@ export const query = graphql`
             _id
             title
           }
-          Content
+
         }
       }
     }
@@ -64,7 +65,8 @@ const BlogPage = props => {
         </header>
 
         <div className="flex justify-center items-center">
-          <BlogCardExternal />
+          {/* <BlogCardExternal /> */}
+          <BlogPostPreviewGrid />
         </div>
 
         <section className="flex justify-center py-20 my-20 px-10">

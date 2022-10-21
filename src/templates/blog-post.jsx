@@ -43,29 +43,29 @@ export const query = graphql`
       }
       _rawExcerpt(resolveReferences: { maxDepth: 5 })
       _rawBody(resolveReferences: { maxDepth: 5 })
-      Content
+
     }
   }
 `;
 
 
 const BlogPostTemplate = props => {
-    const { data, errors } = props;
-    const blog = data && data.blog;
-    return (
-        <div>
+  const { data, errors } = props;
+  const blog = data && data.blog;
+  return (
+    <div>
 
-            {errors && (
-                <div>
-                    <GraphQLErrorList errors={errors} />
-                </div>
-            )}
-            <div>
-                <NavBar />
-            </div>
-            {blog && <BlogPost {...blog} />}
+      {errors && (
+        <div>
+          <GraphQLErrorList errors={errors} />
         </div>
-    );
+      )}
+      <div>
+        <NavBar />
+      </div>
+      {blog && <BlogPost {...blog} />}
+    </div>
+  );
 };
 
 export default BlogPostTemplate;
