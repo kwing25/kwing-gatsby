@@ -4,18 +4,18 @@ import { useStaticQuery, graphql } from "gatsby"
 
 function BlogPostPreviewGrid() {
 
-    const data = useStaticQuery(graphql`
-    query {
-      sanityBlog {
-        title
-        slug {
-          current
-        }
-        _rawExcerpt
-      }
-    }
-  `
-    )
+    //     const data = useStaticQuery(graphql`
+    //     query {
+    //       sanityBlog {
+    //         title
+    //         slug {
+    //           current
+    //         }
+    //         _rawExcerpt
+    //       }
+    //     }
+    //   `
+    //     )
 
 
     return (
