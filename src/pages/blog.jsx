@@ -4,7 +4,7 @@ import GraphQLErrorList from "../components/graphql-error-list";
 
 import NavBar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import BlogCardExternal from "../components/blog/blog-card-external";
+// import BlogCardExternal from "../components/blog/blog-card-external";
 import BlogPostPreviewGrid from "../components/blog/blog-post-preview-grid";
 
 export const query = graphql`
