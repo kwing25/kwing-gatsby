@@ -5661,7 +5661,7 @@
     "valid-url" "^1.0.9"
     "xstate" "4.32.1"
 
-"gatsby-source-sanity@^7.4.2":
+"gatsby-source-sanity@^7.6.0":
   "integrity" "sha512-8eBrlj3eepVDt0q9oCzV8I5TdGfjQAVlqs3Np8DVidP7wNWC33+UoQGv+K7AbBVoe0EjEnOosmdFosy6704Giw=="
   "resolved" "https://registry.npmjs.org/gatsby-source-sanity/-/gatsby-source-sanity-7.6.0.tgz"
   "version" "7.6.0"
