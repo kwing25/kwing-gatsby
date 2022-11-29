@@ -4759,7 +4759,7 @@ esbuild-windows-arm64@0.15.16:
   resolved "https://registry.npmjs.org/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.16.tgz"
   integrity sha512-oCcUKrJaMn04Vxy9Ekd8x23O8LoU01+4NOkQ2iBToKgnGj5eo1vU9i27NQZ9qC8NFZgnQQZg5oZWAejmbsppNA==
 
-esbuild@~0.15.12:
+esbuild@~0.15.16:
   version "0.15.16"
   resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.15.16.tgz"
   integrity sha512-o6iS9zxdHrrojjlj6pNGC2NAg86ECZqIETswTM5KmJitq+R1YmahhWtMumeQp9lHqJaROGnsBi2RLawGnfo5ZQ==
@@ -5782,12 +5782,12 @@ gatsby-plugin-typescript@^5.2.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^5.2.0"
 
-gatsby-plugin-use-dark-mode@^1.5.0:
-  version "1.6.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-use-dark-mode/-/gatsby-plugin-use-dark-mode-1.6.1.tgz"
-  integrity sha512-ZMPxoKb5NiwNCkrpx1iDjXMp2IQzAancHidu5LdHt3I1aiFXpou4sIui56Lv0NDukQiuuj9nTZ5R0ypjT1SSwA==
+gatsby-plugin-use-dark-mode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/gatsby-plugin-use-dark-mode/-/gatsby-plugin-use-dark-mode-2.0.0.tgz"
+  integrity sha512-Ac09QnJlfK5ZQ5S2ajCLh7YKB80CZ74E4vNmodQf9eP8oFY/h/HPKddaLmRXboT6SAt00EbEMv9J2D847mVIXg==
   dependencies:
-    esbuild "~0.15.12"
+    esbuild "~0.15.16"
 
 gatsby-plugin-utils@^4.1.0, gatsby-plugin-utils@^4.2.0:
   version "4.2.0"
