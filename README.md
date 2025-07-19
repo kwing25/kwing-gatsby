@@ -12,6 +12,12 @@
   Gatsby TailwindCSS Portfolio
 </h1>
 
+<h2 align="center"">
+      REPO IN PROGRESS AS OF JULY 2025
+</h2>
+<h3 align="center">
+  A minimal portfolio template built with Gatsby and TailwindCSS
+
 ---
 <h4>Table of Contents:</h4>
 
